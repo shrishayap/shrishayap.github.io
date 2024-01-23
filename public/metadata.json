@@ -1,0 +1,26 @@
+{
+    "PageStructure": [
+        {
+            "name": "Home",
+            "path": "/"
+        },
+        {
+            "name": "Projects",
+            "path": "/projects"
+        },
+        {
+            "name": "Work & Research",
+            "path": "/work"
+        },
+        {
+            "name": "Resume",
+            "path": "/resume.pdf"
+        }
+    ],
+    "Links": {
+        "LinkedIn": "https://www.linkedin.com/in/shrishayapalparvi/",
+        "GitHub": "https://github.com/shrishayap",
+        "Email": "mailto:shrishayap@gmail.com",
+        "Resume": "/resume.pdf"
+    }
+}
