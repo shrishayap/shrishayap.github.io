@@ -17,7 +17,7 @@ import { TbFileTypeSql } from "react-icons/tb";
 
 
 
-export function Page() {
+export default function Page() {
 
     return (
         <div className='flex flex-col'>
@@ -120,4 +120,3 @@ export function Page() {
     )
 }
 
-export default Page

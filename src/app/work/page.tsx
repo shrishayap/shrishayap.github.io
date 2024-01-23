@@ -19,7 +19,7 @@ import { SiGooglecloud } from "react-icons/si";
 
 
 
-export function Page() {
+export default function Page() {
 
     return (
         <div className='flex flex-col'>
@@ -112,5 +112,3 @@ export function Page() {
         </div>
     )
 }
-
-export default Page
