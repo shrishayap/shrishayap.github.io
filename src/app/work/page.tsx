@@ -55,7 +55,7 @@ export default function Page() {
                         <ProjectCard
                             title="Hinkapin Health"
                             date="November 2023 - Present"
-                            role='Sole Full Stack Developer'
+                            role='Lead Full Stack Developer'
                             description={[
                                 "As the sole developer for Hinkapin Health, a medical care provider in the greater Dallas area, I designed and implemented a user-friendly website. The platform aimed to simplify patient access to a transparent database containing information on doctors, procedures, and prices.",
                                 "Utilizing Firebase Firestore, I efficiently stored data on doctors, procedures, and pricing. Cloud storage (Google's blob storage) was used to store images. For the frontend, I employed React with NextJS as the framework, ensuring a responsive and seamless user experience. Backend computations, including database updates, were handled through Google Cloud Serverless functions (Cloud functions), contributing to the scalability of the platform.",
