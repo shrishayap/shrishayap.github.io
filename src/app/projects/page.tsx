@@ -14,6 +14,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { SiKeras } from "react-icons/si";
 import { SiRos } from "react-icons/si";
 import { TbFileTypeSql } from "react-icons/tb";
+import { SiGooglebard } from "react-icons/si";
 
 
 
@@ -64,15 +65,15 @@ export default function Page() {
 
                         <ProjectCard
                             title="Receipt Reader"
-                            date="January 2022"
+                            date="January 2024"
                             tag="personal project" role='Developer'
                             description={[
                                 "Tired of the manual effort of calculating individual shares after a dinner, I developed a web app. It takes a photo of a receipt as input, extracts item details and costs, and allows users to assign items or percentages for splitting. The app automates the calculation, including tax and tip.",
-                                "For frontend development, I utilized ReactJS, and implemented a Flask backend with PyTesseract for OCR. Although I initially trained my OCR with Keras, I opted for PyTesseract for enhanced stability."
+                                "For frontend development, I utilized ReactJS, and implemented a Flask and NodeJS backend with Google Gemini Visual Question Answering (VQA) API for receipt parsing. Although I initially trained my OCR with Keras, I opted for Google Gemini API for enhanced stability."
                             ]}
                             image='https://images.unsplash.com/photo-1545941962-1b6654eb8072?q=80&w=3164&auto=format&fit=crop'
-                            link='https://github.com/shrishayap/splitthebill'
-                            icons={[FaPython, SiFlask, IoLogoJavascript, FaReact, SiKeras]}
+                            link='https://splitthereceipt.vercel.app'
+                            icons={[FaPython, SiFlask, IoLogoJavascript, FaReact, SiKeras, SiGooglebard]}
                         />
 
                         <ProjectCard
